@@ -1,0 +1,44 @@
+Automatic Web Browsing
+Automatic Web Browsing is a Node.js program that utilizes the Puppeteer library to automate web browsers and surf websites from a text file. It allows users to specify various parameters, such as the browser to use, the list of websites to visit, and tab management settings.
+
+Features
+Automated Browsing: The program uses Puppeteer to automate web browsers and navigate to websites.
+Tab Management: It manages open tabs, ensuring that the maximum number of open tabs is maintained and excess tabs are closed.
+Flexible Browser Selection: Users can choose between Google Chrome, Mozilla Firefox, and Microsoft Edge as their preferred browser.
+Input Validation: User inputs are validated to ensure proper formatting and adherence to specified ranges.
+Customizable Wait Time: Users can set a specified wait time between accessing new websites.
+Relative File Paths: The program supports relative file paths for the list of websites, making it convenient to store the list in the same directory as the program.
+Error Handling: Comprehensive error handling provides informative feedback in case of issues.
+Easy Setup: The user is guided through the setup process with interactive prompts.
+How to Use
+Clone the repository or download the program files.
+Make sure you have Node.js installed on your machine.
+Open a terminal and navigate to the program directory.
+Run the program by executing the command: node index.js
+Follow the interactive prompts to set up the browsing parameters:
+Choose your preferred browser (chrome/firefox/edge).
+Specify the path to the text file with the list of websites (or just provide the filename if it's in the same directory).
+Enter the maximum number of tabs to open at once.
+Enter the maximum total number of tabs to be opened.
+Set the time to wait in seconds before accessing a new website.
+Specify whether to run in headless mode (yes/no).
+Configuration Examples
+Automatically Choose Browser:
+
+When prompted for the browser, you can type chrome, firefox, or edge to automatically use the default browser's path.
+Relative File Path:
+
+If the website list file is named sites.txt and is in the same directory as the program, you can simply provide sites.txt as the file path.
+Tab Management:
+
+If you specify maxTabs as 2 and maxOpenTabs as 4, the program will open 2 tabs at once and maintain a total of 4 open tabs.
+Contributing
+If you find any issues, have suggestions for improvements, or want to contribute, feel free to open an issue or create a pull request on GitHub.
+
+License
+This program is open-source and available under the MIT License.
+
+
+
+
+
